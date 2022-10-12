@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{996569a7-5703-4dc3-b751-244b74f6e538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{0b3860bc-ab82-4d82-9a05-537bf8082e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Lib">
+      <UniqueIdentifier>{00eba13f-2bd4-477f-ae72-f15ce8112bb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="LightHelper.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="xnacollision.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="LitSkullDemo.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxDemo.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingDemo.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Example\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Example\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="xnacollision.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Example\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Example\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
